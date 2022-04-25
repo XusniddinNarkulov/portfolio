@@ -1,0 +1,19 @@
+.right-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+  padding: 1%;
+  background-color: var(--white);
+  width: 10rem;
+  padding: 1%;
+}
+
+.x-bar {
+  position: relative;
+}
+.x-bar .icon {
+  position: absolute;
+}

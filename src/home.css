@@ -1,0 +1,43 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 100vh;
+}
+
+.home__left {
+  padding-right: 20%;
+}
+
+.home__left--heading {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  gap: 1rem;
+  margin-bottom: 5%;
+}
+
+.buttons {
+  display: flex;
+  gap: 5%;
+}
+
+.buttons a {
+  color: var(--black);
+  padding: 1% 3%;
+  border: 1px solid var(--black);
+  border-radius: 0.5rem;
+}
+
+.buttons a:hover {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.home__right {
+  height: 100%;
+  background-image: url(../public/header.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}

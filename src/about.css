@@ -1,0 +1,28 @@
+.about {
+  margin-top: 10%;
+}
+.about__me {
+  width: 60%;
+  padding: 1% 0;
+  border-bottom: 1px solid var(--black);
+  font-size: 3rem;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 5%;
+  row-gap: 20%;
+}
+.about__grid--timetable {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.about__grid--timetable div {
+  border-top: 1px solid var(--black);
+  padding: 0 3%;
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}

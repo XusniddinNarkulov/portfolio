@@ -1,0 +1,57 @@
+.contact {
+  margin-top: 10%;
+}
+.contact__me {
+  font-size: 3rem;
+  padding-bottom: 1%;
+  border-bottom: 1px solid var(--black);
+  width: 60%;
+}
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  gap: 5%;
+  margin-top: 5%;
+}
+
+.contact__grid--left-email::after {
+  content: " name@gmail.com";
+  color: var(--gray);
+}
+.contact__grid--left-phone::after {
+  content: " (555) 123-4567";
+  color: var(--gray);
+}
+.contact__grid--left-description {
+  color: var(--gray);
+}
+
+.contact__grid--right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.inputs {
+  display: flex;
+  gap: 2rem;
+}
+.inputs input {
+  padding: 1.5% 1%;
+  width: 50%;
+}
+textarea {
+  padding: 2%;
+  height: 20rem;
+  resize: none;
+}
+
+form button {
+  width: 7rem;
+  padding: 1% 0;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  cursor: pointer;
+}

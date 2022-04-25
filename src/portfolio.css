@@ -1,0 +1,22 @@
+.portfolio h1 {
+  font-size: 3rem;
+  margin-top: 5%;
+  width: 60%;
+  border-bottom: 1px solid var(--black);
+  padding: 1% 0;
+}
+
+.portfolio__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+  margin-top: 3%;
+}
+.portfolio__grid div {
+  background-image: url(../public/header.jpg);
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+}
